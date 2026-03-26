@@ -350,7 +350,7 @@ void GaussianMapper::readConfigFromFile(std::filesystem::path cfg_path)
     opt_params_.opacity_reset_interval_ =
         settings_file["Optimization.opacity_reset_interval"].operator int();
     opt_params_.densify_from_iter_ =
-        settings_file["Optimization.densify_from_iter_"].operator int();
+        settings_file["Optimization.densify_from_iter"].operator int();
     opt_params_.densify_until_iter_ =
         settings_file["Optimization.densify_until_iter"].operator int();
     opt_params_.densify_grad_threshold_ =
