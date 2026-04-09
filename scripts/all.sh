@@ -7,3 +7,5 @@
 ./tum_rgbd.sh
 
 ./euroc_stereo.sh
+./kitti_mono.sh
+./kitti_stereo.sh
